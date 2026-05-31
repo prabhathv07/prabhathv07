@@ -56,7 +56,7 @@ Multi-stage instruction-tuning dataset pipeline processing **30K+ code samples**
 
 ---
 
-### 🔐 [User Management System](https://github.com/prabhathv07/user-management-system)
+### 🔐 [User Management System](https://github.com/prabhathv07/user_management)
 Production-ready FastAPI service with PostgreSQL, Docker, **88% test coverage**, and full CI/CD pipeline via GitHub Actions. Resolved 5 critical deployment and DB layer bugs.
 
 `FastAPI` `PostgreSQL` `Docker` `Pytest` `GitHub Actions`
