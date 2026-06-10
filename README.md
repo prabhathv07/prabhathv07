@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Prabhath Vinay Vipparthi 👋</h1>
 
 <p align="center">
-  <b>MS Data Science · NJIT</b> &nbsp;|&nbsp; Data Scientist · ML Engineer · Data Engineer
+  <b>MS Data Science · NJIT</b> &nbsp;|&nbsp; Data Scientist · ML Engineer · Data Engineer · Data Analyst 
   <br/>
   📍 Harrison, NJ &nbsp;|&nbsp; 🔍 Open to Data Scientist / ML Engineer roles · Any US Location
   <br/>
