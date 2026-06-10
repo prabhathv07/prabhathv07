@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Prabhath Vinay Vipparthi 👋</h1>
 
 <p align="center">
-  <b>MS Data Science · NJIT</b> &nbsp;|&nbsp; NLP & LLM Systems · Data Engineering · Backend ML
+  <b>MS Data Science · NJIT</b> &nbsp;|&nbsp; Data Scientist · ML Engineer · Data Engineer
   <br/>
-  📍 Harrison, NJ &nbsp;|&nbsp; 🔍 Open to Data Scientist / ML Engineer roles (US)
+  📍 Harrison, NJ &nbsp;|&nbsp; 🔍 Open to Data Scientist / ML Engineer roles · Any US Location
   <br/>
   <a href="https://prabhathv07.github.io">Portfolio</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/prabhath-vipparthi-90544b225/">LinkedIn</a> &nbsp;·&nbsp;
@@ -18,24 +18,43 @@
 
 ## About Me
 
-I design and ship **end-to-end ML and data systems** — from distributed pipelines processing millions of records to production NLP systems with deterministic rule engines, automated testing, and governance workflows.
+MS Data Science candidate at NJIT (May 2026). I build ML systems that go beyond the notebook — real pipelines, real clients, real production constraints.
 
-MS Data Science at NJIT, graduating May 2026. Available for full-time US roles on STEM OPT (~3 years, no sponsorship needed).
+My capstone delivered a working NLP classification system to NJIT's Learning & Development Initiative. My big data projects ran on actual AWS EC2 clusters. My backend APIs ship with CI/CD, Dockerized deployments, and test coverage above 85%.
+
+I'm drawn to problems at the intersection of **NLP, data engineering, and ML systems** — where the challenge isn't just the model, but making the whole system reliable, explainable, and maintainable. Graduating May 2026, actively interviewing for full-time US roles.
 
 ---
 
 ## 💼 Experience
 
-**Office Assistant — NJIT Biomedical Engineering Department** *(Fall 2025 – May 2026)*
+**Office Assistant — NJIT Biomedical Engineering Dept.** *(Fall 2025 – May 2026)*
 Designed and maintained operational data workflows and web system integrations to support information consistency across BME departmental platforms.
 
 ---
 
 ## 🛠️ Tech Stack
 
+**Languages**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+**ML / Data Science**
+
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat&logo=spacy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+
+**Backend / Infrastructure**
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -43,54 +62,44 @@ Designed and maintained operational data workflows and web system integrations t
 ![Apache Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat&logo=apachehadoop&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat&logo=spacy&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ---
 
 ## 🔬 Featured Projects
 
-### 🎓 [NJIT AI Digital Badge Classification](https://github.com/prabhathv07/ai-badge-classification-platform) *(Capstone · Spring 2026)*
-Real-world capstone for NJIT's **Learning and Development Initiative**. Built a 3-stage deterministic classification engine (Category → Type → Level) with a 4-layer NLP pipeline processing badge metadata across 3 input formats. Engineered 200+ NLP phrases and 22 regex patterns for signal extraction. Wrote 61 tests achieving **100% classification accuracy** on live badge data (20/20). System is in active use by NJIT.
+### 🎓 [NJIT AI Digital Badge Classification](https://github.com/prabhathv07/AI_Digital_Badge_Classification) · *Capstone · Client: NJIT LDI*
+Real-world capstone for NJIT's Learning and Development Initiative. Built a **3-stage deterministic classification engine** (Category → Type → Level) with a 4-layer NLP pipeline that processes badge metadata across 3 input formats (OBv3 JSON, proposal form, free text). Engineered 200+ NLP phrases and 22 regex patterns for signal extraction. Authored 61 tests — **100% classification accuracy on live badge data (20/20)**. System is in active use by NJIT.
 
-`Python` `FastAPI` `React` `NLP` `Rule Engine` `TDD` `REST API`
+`Python` `FastAPI` `React` `NLP` `Rule Engine` `TDD`
 
 ---
 
 ### 🤖 [StarCoder2 Self-Alignment Pipeline](https://github.com/prabhathv07/starcoder2-self-alignment)
 Multi-stage instruction-tuning dataset pipeline processing **30K+ code samples** from The Stack v2. Built syntax validation, static analysis, and LLM-based quality evaluation layers using vLLM for batched inference at scale.
 
-`Python` `vLLM` `Hugging Face` `PyTorch` `Tree-sitter` `Google Colab`
+`Python` `vLLM` `Hugging Face` `PyTorch` `Tree-sitter`
 
 ---
 
-### 🗄️ [Cryptocurrency Market Analysis — Hadoop MapReduce](https://github.com/prabhathv07/crypto-hadoop-analysis)
-Three-job MapReduce pipeline on a **4-node AWS EC2 cluster** analyzing 2 GB of OHLCV tick data across 100+ crypto pairs (April–August 2024). Computed volatility rankings, open-to-close performance, and peak-volume events at distributed scale.
+### 📈 [Cryptocurrency Market Analysis — Hadoop MapReduce](https://github.com/prabhathv07/crypto-hadoop-analysis)
+Three-job MapReduce pipeline on a **4-node AWS EC2 cluster** analyzing 2 GB of OHLCV tick data across 100+ crypto pairs. Computed volatility rankings, open-to-close performance, and peak-volume events at distributed scale.
 
 `Java` `Hadoop` `MapReduce` `HDFS` `AWS EC2`
 
 ---
 
-### 🗄️ [Amazon Reviews Big Data Analysis](https://github.com/prabhathv07/amazon-reviews-bigdata)
-4-node Hadoop cluster on AWS EC2 processing **1.8 million Amazon review records**. Distributed MapReduce jobs in Java for large-scale rating aggregation with HDFS storage.
+### 🗄️ [Amazon Reviews Big Data Analysis](https://github.com/prabhathv07/Amazon-Reviews-BigData-Hadoop)
+Processed **1.8 million Amazon review records** on a 4-node Hadoop cluster on AWS EC2. Distributed MapReduce jobs in Java for large-scale rating aggregation across HDFS.
 
-`Hadoop` `MapReduce` `Java` `HDFS` `AWS EC2`
+`Java` `Hadoop` `MapReduce` `HDFS` `AWS EC2`
 
 ---
 
 ### 🔐 [User Management System](https://github.com/prabhathv07/user_management)
-Production-ready FastAPI service with PostgreSQL, Docker, **88% test coverage**, and full CI/CD pipeline via GitHub Actions. Resolved 5 critical deployment and DB layer bugs.
+Production-ready FastAPI service with PostgreSQL, Docker, **88% test coverage**, and full CI/CD via GitHub Actions. Resolved 5 critical deployment and DB layer bugs.
 
 `FastAPI` `PostgreSQL` `Docker` `Pytest` `GitHub Actions`
-
----
-
-### 🧮 [Smart Calculator](https://github.com/prabhathv07/smart-calculator)
-Interactive web-based calculator that teaches mathematics through step-by-step explanations and visual demonstrations — built for student learning workflows.
-
-`Python` `Web` `Interactive UI`
 
 ---
 
@@ -101,29 +110,24 @@ Interactive web-based calculator that teaches mathematics through step-by-step e
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhathv07&layout=compact&theme=dark&hide_border=true&langs_count=8" height="165"/>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=prabhathv07&theme=dark&hide_border=true" height="165"/>
-</p>
-
 ---
 
-## 🌱 Currently Exploring
+## 🚀 What's Next
 
-- LangChain · RAG pipelines · FAISS/Chroma vector stores
-- MLflow experiment tracking & model registry
-- Streamlit for ML app deployment
+- Building a **RAG pipeline** with LangChain, FAISS, and a FastAPI backend — production-grade retrieval, not toy demos
+- Studying **MLflow** for experiment tracking and model registry to bring structure to training workflows
+- Exploring **Streamlit** for deploying ML apps that non-technical stakeholders can actually use
+- Reading up on **LLM fine-tuning best practices** — LoRA, quantization, and efficient training on constrained hardware
 
 ---
 
 ## 📬 Let's Connect
 
-Actively looking for **Data Scientist** and **ML Engineer** roles in the US.
-STEM OPT — ~3 years of work authorization, no sponsorship needed now.
+Actively seeking **Data Scientist** and **ML Engineer** roles. Graduating May 2026, open to any US location — remote, on-site, or hybrid.
 
-- 📧 [vipparthi.prabhathvinay23@gmail.com](mailto:vipparthi.prabhathvinay23@gmail.com)
 - 🌐 [Portfolio](https://prabhathv07.github.io)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/prabhath-vipparthi-90544b225/)
-- 📍 Harrison, NJ (open to remote, NYC metro, and relocation)
+- 📧 [vipparthi.prabhathvinay23@gmail.com](mailto:vipparthi.prabhathvinay23@gmail.com)
 
 ---
 
