@@ -28,6 +28,13 @@ I'm drawn to problems at the intersection of **NLP, data engineering, and ML sys
 
 ## 💼 Experience
 
+**AI/NLP Engineer — NJIT Learning & Development Initiative** *(Spring 2026 · Capstone)*
+Built a production NLP classification system for NJIT's badge credentialing workflow. Designed the 3-stage classification engine (Category → Type → Level), engineered 200+ NLP phrases and 22 regex patterns for signal extraction across 3 input formats, and authored 61 tests achieving **100% accuracy on live badge data (20/20)**. System is actively used by NJIT staff.
+
+`Python` `FastAPI` `React` `NLP` `Rule Engine` `TDD` → [Repo](https://github.com/prabhathv07/AI_Digital_Badge_Classification)
+
+---
+
 **Office Assistant — NJIT Biomedical Engineering Dept.** *(Fall 2025 – May 2026)*
 Designed and maintained operational data workflows and web system integrations to support information consistency across BME departmental platforms.
 
@@ -68,14 +75,7 @@ Designed and maintained operational data workflows and web system integrations t
 
 ## 🔬 Featured Projects
 
-### 🎓 [NJIT AI Digital Badge Classification](https://github.com/prabhathv07/AI_Digital_Badge_Classification) · *Capstone · Client: NJIT LDI*
-Real-world capstone for NJIT's Learning and Development Initiative. Built a **3-stage deterministic classification engine** (Category → Type → Level) with a 4-layer NLP pipeline that processes badge metadata across 3 input formats (OBv3 JSON, proposal form, free text). Engineered 200+ NLP phrases and 22 regex patterns for signal extraction. Authored 61 tests — **100% classification accuracy on live badge data (20/20)**. System is in active use by NJIT.
-
-`Python` `FastAPI` `React` `NLP` `Rule Engine` `TDD`
-
----
-
-### 🤖 [StarCoder2 Self-Alignment Pipeline](https://github.com/prabhathv07/starcoder2-self-alignment)
+### 🤖 [StarCoder2 Self-Alignment Pipeline](https://github.com/prabhathv07/StarCoder2-Self-Alignment-Pipeline)
 Multi-stage instruction-tuning dataset pipeline processing **30K+ code samples** from The Stack v2. Built syntax validation, static analysis, and LLM-based quality evaluation layers using vLLM for batched inference at scale.
 
 `Python` `vLLM` `Hugging Face` `PyTorch` `Tree-sitter`
