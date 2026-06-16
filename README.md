@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Prabhath Vinay Vipparthi 👋</h1>
 
 <p align="center">
-  <b>MS Data Science · NJIT</b> &nbsp;|&nbsp; Data Scientist · ML Engineer · Data Engineer · Data Analyst 
+  <b>MS Data Science Graduate · NJIT</b> &nbsp;|&nbsp; Data Scientist · ML Engineer · Data Engineer · Data Analyst 
   <br/>
   📍 Harrison, NJ &nbsp;|&nbsp; 🔍 Open to Data Scientist / ML Engineer roles · Any US Location
   <br/>
@@ -18,25 +18,25 @@
 
 ## About Me
 
-MS Data Science candidate at NJIT (May 2026). I build ML systems that go beyond the notebook — real pipelines, real clients, real production constraints.
+MS Data Science graduate from NJIT (GPA 3.7, May 2026). I build ML systems that go beyond the notebook — real pipelines, real clients, real production constraints.
 
 My capstone delivered a working NLP classification system to NJIT's Learning & Development Initiative. My big data projects ran on actual AWS EC2 clusters. My backend APIs ship with CI/CD, Dockerized deployments, and test coverage above 85%.
 
-I'm drawn to problems at the intersection of **NLP, data engineering, and ML systems** — where the challenge isn't just the model, but making the whole system reliable, explainable, and maintainable. Graduating May 2026, actively interviewing for full-time US roles.
+I'm drawn to problems at the intersection of **NLP, data engineering, and ML systems** — where the challenge isn't just the model, but making the whole system reliable, explainable, and maintainable. Graduated May 2026 (F-1 STEM OPT eligible), actively seeking full-time US roles.
 
 ---
 
 ## 💼 Experience
 
 **AI/NLP Engineer — NJIT Learning & Development Initiative** *(Spring 2026 · Capstone)*
-Built a production NLP classification system for NJIT's badge credentialing workflow. Designed the 3-stage classification engine (Category → Type → Level), engineered 200+ NLP phrases and 22 regex patterns for signal extraction across 3 input formats, and authored 61 tests achieving **100% accuracy on live badge data (20/20)**. System is actively used by NJIT staff.
+Built a production NLP classification system (FastAPI, React/Vite, spaCy, SQLite) for NJIT's badge credentialing workflow. Designed a 3-stage classification engine (Category → Type → Cognitive Level), engineered 130+ lexicon phrase patterns and 44 regex rules for signal extraction across 3 input formats, and delivered a **351-test validation suite (100% pass rate)** achieving 100% accuracy on 20 real-world badge submissions. System is actively used by NJIT staff.
 
 `Python` `FastAPI` `React` `NLP` `Rule Engine` `TDD` → [Repo](https://github.com/prabhathv07/AI_Digital_Badge_Classification)
 
 ---
 
-**Office Assistant — NJIT Biomedical Engineering Dept.** *(Fall 2025 – May 2026)*
-Designed and maintained operational data workflows and web system integrations to support information consistency across BME departmental platforms.
+**Office Assistant — New Jersey Institute of Technology** *(Sep 2025 – May 2026)*
+Developed a web-based study room booking system to automate space reservation workflows for departmental staff and students, replacing manual scheduling processes.
 
 ---
 
@@ -45,9 +45,10 @@ Designed and maintained operational data workflows and web system integrations t
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
 **ML / Data Science**
 
@@ -123,7 +124,7 @@ Production-ready FastAPI service with PostgreSQL, Docker, **88% test coverage**,
 
 ## 📬 Let's Connect
 
-Actively seeking **Data Scientist** and **ML Engineer** roles. Graduating May 2026, open to any US location — remote, on-site, or hybrid.
+Actively seeking **Data Scientist** and **ML Engineer** roles. Graduated May 2026 (F-1 STEM OPT, no sponsorship needed), open to any US location — remote, on-site, or hybrid.
 
 - 🌐 [Portfolio](https://prabhathv07.github.io)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/prabhath-vipparthi-90544b225/)
