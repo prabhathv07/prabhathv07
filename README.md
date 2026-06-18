@@ -41,6 +41,19 @@ Built a bronze → silver → gold medallion pipeline over **5.97M real NYC TLC 
 
 ---
 
+### 📈 [FinSight — Pre-Market Intelligence Platform](https://github.com/prabhathv07/finsight)
+[![CI](https://github.com/prabhathv07/finsight/actions/workflows/ci.yml/badge.svg)](https://github.com/prabhathv07/finsight/actions/workflows/ci.yml)
+
+Production pre-market briefing system — **live at [finsight-api-7ghk.onrender.com](https://finsight-api-7ghk.onrender.com)**. Pulls **~130 symbols** (futures, macro, sector ETFs, mover universe, watchlist) every weekday morning via yfinance + Polygon.io fallback, computes RSI/MA/sparkline indicators, feeds a structured summary to **Gemini 2.5 Flash**, and emails the HTML briefing to confirmed subscribers. FastAPI service hosts the public dashboard and double opt-in signup flow.
+
+- Every LLM call is logged to Postgres with the exact input, output, model name, latency, and status — model regression or latency spike shows up as a query, not a missing alert
+- Double opt-in with per-address unsubscribe tokens; **two email backends** (Gmail SMTP local, Resend production) behind one interface
+- **57 tests** across 8 modules, fully offline — SQLite + deterministic fake providers, zero network or API keys needed
+
+`FastAPI` `PostgreSQL` `SQLAlchemy` `Gemini` `Docker` `Render` `GitHub Actions`
+
+---
+
 ### 📊 [Olist SQL + A/B Experimentation](https://github.com/prabhathv07/olist-sql-experimentation)
 [![CI](https://github.com/prabhathv07/olist-sql-experimentation/actions/workflows/ci.yml/badge.svg)](https://github.com/prabhathv07/olist-sql-experimentation/actions/workflows/ci.yml)
 
@@ -60,15 +73,6 @@ End-to-end SQL analysis and hypothesis test on **96,096 real Olist customers (99
 Three-job MapReduce pipeline on a **4-node AWS EC2 Hadoop cluster**, processing **2 GB of OHLCV tick data** across 100+ cryptocurrency trading pairs (Apr–Aug 2024). Computes volatility rankings, open-to-close performance, and cumulative volume with peak-volume timestamps in parallel across the cluster. Single reducer per job forces a **global** Top-10 rather than per-node local rankings.
 
 `Java` `Apache Hadoop` `MapReduce` `HDFS` `AWS EC2`
-
----
-
-### 📈 [FinSight — Pre-Market Intelligence Platform](https://github.com/prabhathv07/finsight)
-[![CI](https://github.com/prabhathv07/finsight/actions/workflows/ci.yml/badge.svg)](https://github.com/prabhathv07/finsight/actions/workflows/ci.yml)
-
-Production pre-market briefing system — **live at [finsight-api-7ghk.onrender.com](https://finsight-api-7ghk.onrender.com)**. Pulls ~130 symbols (futures, macro, sector ETFs, watchlist) every weekday morning, computes RSI/MA/sparkline indicators, feeds a structured summary to **Gemini 2.5 Flash**, and emails the briefing to confirmed subscribers. Double opt-in subscriber management, full LLM call logging (input · output · latency · status), **57 tests** all offline.
-
-`FastAPI` `PostgreSQL` `SQLAlchemy` `Gemini` `Docker` `Render` `GitHub Actions`
 
 ---
 
