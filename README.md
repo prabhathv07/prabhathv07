@@ -55,8 +55,9 @@ End-to-end SQL analysis and hypothesis test on **96,096 real Olist customers (99
 ---
 
 ### ₿ [Crypto Market Analysis — Hadoop MapReduce](https://github.com/prabhathv07/crypto-hadoop-analysis)
+[![CI](https://github.com/prabhathv07/crypto-hadoop-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/prabhathv07/crypto-hadoop-analysis/actions/workflows/ci.yml)
 
-Three-job MapReduce pipeline on a **4-node AWS EC2 Hadoop cluster**, processing **2 GB of OHLCV tick data** across 100+ cryptocurrency trading pairs (Apr–Aug 2024). Computes volatility rankings, open-to-close performance, and cumulative volume with peak-volume timestamps in parallel across the cluster.
+Three-job MapReduce pipeline on a **4-node AWS EC2 Hadoop cluster**, processing **2 GB of OHLCV tick data** across 100+ cryptocurrency trading pairs (Apr–Aug 2024). Computes volatility rankings, open-to-close performance, and cumulative volume with peak-volume timestamps in parallel across the cluster. Single reducer per job forces a **global** Top-10 rather than per-node local rankings.
 
 `Java` `Apache Hadoop` `MapReduce` `HDFS` `AWS EC2`
 
