@@ -63,6 +63,15 @@ Three-job MapReduce pipeline on a **4-node AWS EC2 Hadoop cluster**, processing 
 
 ---
 
+### 📈 [FinSight — Pre-Market Intelligence Platform](https://github.com/prabhathv07/finsight)
+[![CI](https://github.com/prabhathv07/finsight/actions/workflows/ci.yml/badge.svg)](https://github.com/prabhathv07/finsight/actions/workflows/ci.yml)
+
+Production pre-market briefing system — **live at [finsight-api-7ghk.onrender.com](https://finsight-api-7ghk.onrender.com)**. Pulls ~130 symbols (futures, macro, sector ETFs, watchlist) every weekday morning, computes RSI/MA/sparkline indicators, feeds a structured summary to **Gemini 2.5 Flash**, and emails the briefing to confirmed subscribers. Double opt-in subscriber management, full LLM call logging (input · output · latency · status), **57 tests** all offline.
+
+`FastAPI` `PostgreSQL` `SQLAlchemy` `Gemini` `Docker` `Render` `GitHub Actions`
+
+---
+
 ### 🤖 [AI Digital Badge Classification](https://github.com/prabhathv07/AI_Digital_Badge_Classification)
 
 Production NLP classification system delivered to NJIT's Learning & Development Initiative. **351-test validation suite, 100% pass rate, 100% accuracy** on 20 real-world badge submissions. Three-stage engine (Category → Type → Cognitive Level) with 130+ lexicon phrase patterns and 44 regex rules. Actively used by NJIT staff.
