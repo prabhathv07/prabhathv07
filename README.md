@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Prabhath Vinay Vipparthi 👋</h1>
+<h1 align="center">Hi, I'm Prabhath Vipparthi 👋</h1>
 
 <p align="center">
   <b>MS Data Science · NJIT (GPA 3.7, May 2026)</b><br/>
